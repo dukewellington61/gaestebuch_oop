@@ -1,0 +1,1 @@
+<a href="index.php?action=neu" style="position: fixed">Eintrag schreiben</a>

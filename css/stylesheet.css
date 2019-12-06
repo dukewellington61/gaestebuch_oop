@@ -1,0 +1,30 @@
+.header {
+    text-align: center;
+}
+
+.fields {
+    margin-top: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 50%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+#entry-header {
+    height: 2em;
+    margin-top: 3em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#entry-content {
+    height: 10em;
+    overflow-wrap: break-word;
+}
+
+#form {
+    text-align: center;
+}
+
