@@ -14,7 +14,7 @@
     </header>
 
     <div id="guestbook-body">
-        <?php require_once $template; ?>
+        <?php require $template; ?>
     </div>
 
 </body>

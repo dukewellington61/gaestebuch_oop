@@ -1,7 +1,5 @@
+<a href="index.php?action=neu" style="position: fixed">Eintrag schreiben</a>
 <?php
-
-require 'templates\neuerEintragLink.tpl.php';
-
 foreach ($eintraege as $e): ?>
     <div id="entry-header" class="fields"><?= $this->makeSave($e->getTitel()) ?></div>
     <div id="entry-content" class="fields"><?= nl2br($this->makeSave($e->getInhalt())) ?></div>
